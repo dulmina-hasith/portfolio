@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio — Static GitHub Pages Edition
 
-see portfolio - https://dulmina-hasith.github.io/portfolio/
+[![See Portfolio](https://img.shields.io/badge/Live_Demo-LIVE-81b64c?style=for-the-badge&logoColor=white)](https://dulmina-hasith.github.io/portfolio/)
 
 Welcome to the static, serverless edition of my professional cybersecurity portfolio. This project was migrated from a Spring Boot + Thymeleaf web application to a fully client-side rendered, highly performant static application optimized for deployment on GitHub Pages.
 
