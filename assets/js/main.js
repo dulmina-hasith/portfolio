@@ -24,7 +24,7 @@ const FALLBACK_DATA = {
       "title": "SentinelX",
       "description": "A real-time Linux host intrusion detection system and security log auditor. Monitors authentication logs (/var/log/auth.log) for brute-force attacks, scans, and privilege escalation indicators, displaying events on an active dashboard with automatic alerting.",
       "techStack": "Python, Tkinter, Regular Expressions, Linux Security, Multi-threading",
-      "githubUrl": "https://github.com/GGdulmina/SentinelX",
+      "githubUrl": "https://github.com/dulmina-hasith/SentinelX",
       "liveUrl": "",
       "featured": true,
       "certificateName": "",
@@ -35,7 +35,7 @@ const FALLBACK_DATA = {
       "title": "CTF Exploit Scripts & Writeups",
       "description": "Complete solutions, analysis, and custom automated bash tools for OverTheWire Bandit wargame levels 1 to 34. Showcases practical skills in file filtering, base64/hex transcoding, SSH key manipulation, process listening, and privilege escalation.",
       "techStack": "Bash, Python, Linux Administration, Cryptography, SSH",
-      "githubUrl": "https://github.com/GGdulmina/OTW-Bandit-Solutions",
+      "githubUrl": "https://github.com/dulmina-hasith/OTW-Bandit-Solutions",
       "liveUrl": "https://overthewire.org/wargames/bandit/",
       "featured": true,
       "certificateName": "OverTheWire Bandit Completed",
@@ -45,9 +45,9 @@ const FALLBACK_DATA = {
       "id": 3,
       "title": "Retro Chess Engine",
       "description": "Browser-based chess game featuring a minimax AI with alpha-beta pruning. Supports three difficulty levels. Built with a custom flying-piece animation system and a retro aesthetic — fully playable in the browser with no dependencies.",
-      "techStack": "JavaScript, HTML/CSS, Minimax AI,  Minimax AI",
-      "githubUrl": "https://github.com/GGdulmina/retro_chess",
-      "liveUrl": "https://ggdulmina.github.io/retro_chess/",
+      "techStack": "JavaScript, HTML/CSS, Minimax AI",
+      "githubUrl": "https://github.com/dulmina-hasith/retro_chess",
+      "liveUrl": "https://dulmina-hasith.github.io/retro_chess/",
       "featured": false,
       "certificateName": "",
       "certificateUrl": ""
@@ -57,7 +57,7 @@ const FALLBACK_DATA = {
       "title": "GenAI-Inventory",
       "description": "A full-stack smart inventory management system built using Java JSP/Servlets with a Python Flask AI microservice and MySQL backend. The system handles authentication, inventory tracking, sales management, and reporting, while the AI layer provides restocking recommendations and sales trend analysis through REST APIs.",
       "techStack": "Java (JSP/Servlets), Python+(Flask API), MySQL",
-      "githubUrl": "https://github.com/GGdulmina/GenAI-Inventory",
+      "githubUrl": "https://github.com/dulmina-hasith/GenAI-Inventory",
       "liveUrl": "",  
       "featured": true,
       "certificateName": "",
@@ -174,7 +174,7 @@ const FALLBACK_DATA = {
       "title": "Junior Penetration Tester",
       "issuer": "TryHackMe",
       "status": "ACQUIRED",
-      "verificationUrl": "https://tryhackme.com/p/GGdulmina"
+      "verificationUrl": "https://tryhackme.com/p/dulmina-hasith"
     },*/
   ],
   labplatforms: [
@@ -195,14 +195,14 @@ const FALLBACK_DATA = {
     {
       "id": 3,
       "name": "OverTheWire",
-      "profileUrl": "https://github.com/GGdulmina/ctf-exploit-scripts-writeups",
+      "profileUrl": "https://github.com/dulmina-hasith/ctf-exploit-scripts-writeups",
       "progress": "Bandit Level 25 completed",
       "iconClass": "devicon-ssh-original"
     },
     {
     "id": 4,
     "name": "pwn.college",
-    "profileUrl": "https://github.com/GGdulmina/ctf-exploit-scripts-writeups",
+    "profileUrl": "https://github.com/dulmina-hasith/ctf-exploit-scripts-writeups",
     "progress": "Start Here - 50%",
     "iconClass": "devicon-babylonjs-plain colored"
   }
@@ -228,7 +228,7 @@ const FALLBACK_DATA = {
       "field": "Full-Stack Java Web Development",
       "type": "Academic Project",
       "tags": "Java Servlets, JSP, MySQL, JDBC, Apache Tomcat, Bootstrap 5, MVC Architecture",
-      "link": "https://github.com/GGdulmina/ATI-Badulla-Portal"
+      "link": "https://github.com/dulmina-hasith/ATI-Badulla-Portal"
     }
   ]
 };

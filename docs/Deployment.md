@@ -57,7 +57,7 @@ Create four **A Records** pointing to GitHub Pages IP addresses:
 #### For a Subdomain (e.g., `portfolio.dulminahasith.com`)
 Create a **CNAME Record** pointing to your default GitHub Pages URL:
 * **Host/Name**: `portfolio`
-* **Target/Value**: `GGdulmina.github.io`
+* **Target/Value**: `dulmina-hasith.github.io`
 * **TTL**: `3600` (or default)
 
 ### Step 3: Enforce HTTPS

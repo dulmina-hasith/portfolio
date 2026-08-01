@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ggdulmina.github.io/portfolio/sitemap.xml
+Sitemap: https://dulmina-hasith.github.io/portfolio/sitemap.xml

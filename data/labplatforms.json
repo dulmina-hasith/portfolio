@@ -16,14 +16,14 @@
   {
     "id": 3,
     "name": "OverTheWire",
-    "profileUrl": "https://github.com/GGdulmina/ctf-exploit-scripts-writeups",
+    "profileUrl": "https://github.com/dulmina-hasith/ctf-exploit-scripts-writeups",
     "progress": "Bandit Level 25 completed",
     "iconClass": "devicon-ssh-original-wordmark"
   },
   {
     "id": 4,
     "name": "pwn.college",
-    "profileUrl": "https://github.com/GGdulmina/ctf-exploit-scripts-writeups",
+    "profileUrl": "https://github.com/dulmina-hasith/ctf-exploit-scripts-writeups",
     "progress": "Start Here - 50%",
     "iconClass": "devicon-babylonjs-plain colored"
   }
