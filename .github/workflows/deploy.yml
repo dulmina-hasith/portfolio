@@ -1,20 +1,16 @@
 name: Deploy Static Portfolio to GitHub Pages
-
 on:
   push:
     branches:
       - main
       - master
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
 jobs:
   deploy:
     environment:
@@ -25,16 +21,36 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: './scripts/package.json'
+
+      - name: Install build dependencies
+        run: npm install
+        working-directory: ./scripts
+
+      # Reads data/*.json and writes real HTML into index.html, projects.html,
+      # about.html before the artifact is packaged — this is what makes the
+      # deployed site crawlable without JS execution.
+      - name: Prerender static content for SEO
+        run: node build.mjs
+        working-directory: ./scripts
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Deploy only the portfolio directory
-          path: './portfolio'
+          # CONFIRM: fixed from './portfolio' to '.' — your repo root IS the
+          # site root (index.html, data/, assets/ live at top level, per
+          # your `tree -a` output showing .git directly inside this folder).
+          # If your actual repo layout differs, change this back.
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-...
