@@ -20,7 +20,18 @@
 const FALLBACK_DATA = {
   projects: [
     {
-      "id": 1,
+      "id": 5,
+      "title": "NexusCore-SLIATE",
+      "description": "Building Technical Culture Beyond the Classroom Student-led technical community focused on Software Engineering, Cybersecurity, Open Source, Git, AI, Linux, and collaborative development.",
+      "techStack": "Founder & Community Technical Lead",
+      "githubUrl": "https://github.com/NexusCore-SLIATE",
+      "liveUrl": "https://www.nexuscore.webredirect.org/",
+      "featured": true,
+      "certificateName": "",
+      "certificateUrl": ""
+    },
+    {
+      "id": 4,
       "title": "SentinelX",
       "description": "A real-time Linux host intrusion detection system and security log auditor. Monitors authentication logs (/var/log/auth.log) for brute-force attacks, scans, and privilege escalation indicators, displaying events on an active dashboard with automatic alerting.",
       "techStack": "Python, Tkinter, Regular Expressions, Linux Security, Multi-threading",
@@ -31,7 +42,7 @@ const FALLBACK_DATA = {
       "certificateUrl": ""
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "CTF Exploit Scripts & Writeups",
       "description": "Complete solutions, analysis, and custom automated bash tools for OverTheWire Bandit wargame levels 1 to 34. Showcases practical skills in file filtering, base64/hex transcoding, SSH key manipulation, process listening, and privilege escalation.",
       "techStack": "Bash, Python, Linux Administration, Cryptography, SSH",
@@ -42,7 +53,7 @@ const FALLBACK_DATA = {
       "certificateUrl": ""
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "Retro Chess Engine",
       "description": "Browser-based chess game featuring a minimax AI with alpha-beta pruning. Supports three difficulty levels. Built with a custom flying-piece animation system and a retro aesthetic — fully playable in the browser with no dependencies.",
       "techStack": "JavaScript, HTML/CSS, Minimax AI",
@@ -53,7 +64,7 @@ const FALLBACK_DATA = {
       "certificateUrl": ""
     },
     {
-      "id": 4,
+      "id": 1,
       "title": "GenAI-Inventory",
       "description": "A full-stack smart inventory management system built using Java JSP/Servlets with a Python Flask AI microservice and MySQL backend. The system handles authentication, inventory tracking, sales management, and reporting, while the AI layer provides restocking recommendations and sales trend analysis through REST APIs.",
       "techStack": "Java (JSP/Servlets), Python+(Flask API), MySQL",
@@ -140,18 +151,18 @@ const FALLBACK_DATA = {
   ],
   experience: [
     {
-      "id": 1,
-      "role": "IT Lab Assistant",
-      "company": "B/Dharmapala Maha Vidyalaya/Bandarawela",
-      "duration": "2019 — 2022",
-      "description": "Supported daily ICT lab operations including system setup, maintenance, and student assistance during practical sessions. Assisted in troubleshooting basic hardware and software issues and ensured smooth lab functionality during academic use."
+      "id": 5,
+      "role": "Founder & Lead Developer",
+      "company": "NexusCore",
+      "duration": "2026 — Present",
+      "description": "Leading the design and development of NexusCore, a scalable software platform from concept to deployment. Responsible for system architecture, backend services, frontend development, authentication, database engineering, DevOps, and ongoing feature development."
     },
     {
-      "id": 2,
-      "role": "IT Lab Assistant",
-      "company": "Sri Lanka Institute of Advanced Technological Education (SLAITE)/Badulla",
-      "duration": "2024 — Present",
-      "description": "Responsible for maintaining and supporting over 30+ computer systems in a structured academic lab environment. Ensured system availability, troubleshooting hardware/software issues, and assisting users with technical operations. Gained hands-on experience in system stability, diagnostics, and basic network support."
+      "id": 4,
+      "role": "Security Projects Developer",
+      "company": "Personal & GitHub Projects",
+      "duration": "2026 — Present",
+      "description": "Developing SentinelX, a Linux-based real-time intrusion detection and log monitoring tool. The system uses automated log parsing and anomaly detection to surface suspicious activity and present it through a clean GUI interface."
     },
     {
       "id": 3,
@@ -161,11 +172,18 @@ const FALLBACK_DATA = {
       "description": " Engaging in structured hands-on labs covering penetration testing, vulnerability assessment, privilege escalation, and digital forensics. Automating reconnaissance workflows using Python and Bash. Completed OverTheWire Bandit wargame series."
     },
     {
-      "id": 4,
-      "role": "Security Projects Developer",
-      "company": "Personal & GitHub Projects",
-      "duration": "2026 — Present",
-      "description": "Developing SentinelX, a Linux-based real-time intrusion detection and log monitoring tool. The system uses automated log parsing and anomaly detection to surface suspicious activity and present it through a clean GUI interface."
+      "id": 2,
+      "role": "IT Lab Assistant",
+      "company": "Sri Lanka Institute of Advanced Technological Education (SLAITE)/Badulla",
+      "duration": "2024 — Present",
+      "description": "Responsible for maintaining and supporting over 30+ computer systems in a structured academic lab environment. Ensured system availability, troubleshooting hardware/software issues, and assisting users with technical operations. Gained hands-on experience in system stability, diagnostics, and basic network support."
+    },
+    {
+      "id": 1,
+      "role": "IT Lab Assistant",
+      "company": "B/Dharmapala Maha Vidyalaya/Bandarawela",
+      "duration": "2019 — 2022",
+      "description": "Supported daily ICT lab operations including system setup, maintenance, and student assistance during practical sessions. Assisted in troubleshooting basic hardware and software issues and ensured smooth lab functionality during academic use."
     }
   ],
   certificates: [
@@ -209,17 +227,6 @@ const FALLBACK_DATA = {
   ],
   academic: [
     {
-      "id": 1,
-      "title": "Exploring Research Trends and Innovations in Explainable Artificial Intelligence (XAI) for Oncology Medical Imaging",
-      "description": "A systematic literature review analysing six high-impact studies on XAI in cancer diagnostics. Covers Vision Mamba architectures, Knowledge Distillation, SHAP-based explainability, and multimodal prognostic modelling.",
-      "institution": "SLIATE",
-      "year": "2024",
-      "field": "Artificial Intelligence",
-      "type": "Research Paper",
-      "tags": "XAI, Deep Learning, Medical Imaging, Literature Review",
-      "link": "https://drive.google.com/file/d/1YvdVs6-kiWfzJdpDk3RUKuTLSV9aVV7G/view?usp=drive_link"
-    },
-    {
       "id": 2,
       "title": "ATI-Badulla Web Portal (Java JSP/Servlet-Based CMS System)",
       "description": "Full-stack academic web application using Java Servlets and JSP with MySQL integration. Public-facing institutional website and secure admin dashboard with dynamic notices, image gallery management, course publishing, student results, and session-based authentication.",
@@ -229,6 +236,17 @@ const FALLBACK_DATA = {
       "type": "Academic Project",
       "tags": "Java Servlets, JSP, MySQL, JDBC, Apache Tomcat, Bootstrap 5, MVC Architecture",
       "link": "https://github.com/dulmina-hasith/ATI-Badulla-Portal"
+    },
+    {
+      "id": 1,
+      "title": "Exploring Research Trends and Innovations in Explainable Artificial Intelligence (XAI) for Oncology Medical Imaging",
+      "description": "A systematic literature review analysing six high-impact studies on XAI in cancer diagnostics. Covers Vision Mamba architectures, Knowledge Distillation, SHAP-based explainability, and multimodal prognostic modelling.",
+      "institution": "SLIATE",
+      "year": "2024",
+      "field": "Artificial Intelligence",
+      "type": "Research Paper",
+      "tags": "XAI, Deep Learning, Medical Imaging, Literature Review",
+      "link": "https://drive.google.com/file/d/1YvdVs6-kiWfzJdpDk3RUKuTLSV9aVV7G/view?usp=drive_link"
     }
   ]
 };

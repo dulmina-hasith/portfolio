@@ -1,6 +1,17 @@
 [
   {
-    "id": 1,
+    "id": 5,
+    "title": "NexusCore-SLIATE",
+    "description": "Building Technical Culture Beyond the Classroom Student-led technical community focused on Software Engineering, Cybersecurity, Open Source, Git, AI, Linux, and collaborative development.",
+    "techStack": "Founder & Community Technical Lead",
+    "githubUrl": "https://github.com/NexusCore-SLIATE",
+    "liveUrl": "https://www.nexuscore.webredirect.org/",
+    "featured": true,
+    "certificateName": "",
+    "certificateUrl": ""
+  },
+  {
+    "id": 4,
     "title": "SentinelX",
     "description": "A real-time Linux host intrusion detection system and security log auditor. Monitors authentication logs (/var/log/auth.log) for brute-force attacks, scans, and privilege escalation indicators, displaying events on an active dashboard with automatic alerting.",
     "techStack": "Python, Tkinter, Regular Expressions, Linux Security, Multi-threading",
@@ -11,7 +22,7 @@
     "certificateUrl": ""
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "CTF Exploit Scripts & Writeups",
     "description": "Complete solutions, analysis, and custom automated bash tools for OverTheWire Bandit wargame levels 1 to 34. Showcases practical skills in file filtering, base64/hex transcoding, SSH key manipulation, process listening, and privilege escalation.",
     "techStack": "Bash, Python, Linux Administration, Cryptography, SSH",
@@ -22,7 +33,7 @@
     "certificateUrl": ""
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Retro Chess Engine",
     "description": "Browser-based chess game featuring a minimax AI with alpha-beta pruning. Supports three difficulty levels. Built with a custom flying-piece animation system and a retro aesthetic — fully playable in the browser with no dependencies.",
     "techStack": "JavaScript, HTML/CSS, Minimax AI",
@@ -33,7 +44,7 @@
     "certificateUrl": ""
   },
   {
-    "id": 4,
+    "id": 1,
     "title": "GenAI-Inventory",
     "description": "A full-stack smart inventory management system built using Java JSP/Servlets with a Python Flask AI microservice and MySQL backend. The system handles authentication, inventory tracking, sales management, and reporting, while the AI layer provides restocking recommendations and sales trend analysis through REST APIs.",
     "techStack": "Java (JSP/Servlets), Python+(Flask API), MySQL",
