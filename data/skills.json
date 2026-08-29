@@ -70,5 +70,11 @@
     "name": "Web Application Security Fundamentals",
     "category": "CYBERSECURITY",
     "iconClass": "devicon-shield-plain"
+  },
+  {
+    "id": 13,
+    "name": "n8n - Automation & Workflow Orchestration",
+    "category": "DEVOPS",
+    "iconClass": "n8n"
   }
 ]

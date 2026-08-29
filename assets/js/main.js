@@ -35,6 +35,17 @@ import {
 const FALLBACK_DATA = {
   projects: [
     {
+      "id": 6,
+      "title": "CyberPodda SL - Trend Scan & Draft Generator",
+      "description": "An automated, containerized workflow that aggregates cybersecurity and tech trends across Hacker News, Reddit, Dev.to, and security RSS feeds, filters and ranks threats using Google Gemini AI, and pushes structured daily digests to Telegram.",
+      "techStack": "n8n, Docker, PostgreSQL, Google Gemini API, Telegram API, JavaScript",
+      "githubUrl": "",
+      "liveUrl": "",
+      "featured": true,
+      "certificateName": "",
+      "certificateUrl": ""
+    },
+    {
       "id": 5,
       "title": "NexusCore-SLIATE",
       "description": "Building Technical Culture Beyond the Classroom Student-led technical community focused on Software Engineering, Cybersecurity, Open Source, Git, AI, Linux, and collaborative development.",
@@ -102,14 +113,15 @@ const FALLBACK_DATA = {
     { "id": 9, "name": "Linux Command Line & System Operations", "category": "SYSTEMS ENGINEERING", "iconClass": "devicon-linux-plain" },
     { "id": 10, "name": "Docker Containerization", "category": "DEVOPS", "iconClass": "devicon-docker-plain" },
     { "id": 11, "name": "Secure Network Analysis (Nmap / Wireshark)", "category": "CYBERSECURITY", "iconClass": "devicon-kalilinux-plain" },
-    { "id": 12, "name": "Web Application Security Fundamentals", "category": "CYBERSECURITY", "iconClass": "devicon-shield-plain" }
+    { "id": 12, "name": "Web Application Security Fundamentals", "category": "CYBERSECURITY", "iconClass": "devicon-shield-plain" },
+    { "id": 13, "name": "n8n - Automation & Workflow Orchestration", "category": "DEVOPS", "iconClass": "n8n"}
   ],
   experience: [
     { "id": 5, "role": "Founder & Lead Developer", "company": "NexusCore", "duration": "2026 — Present", "description": "Leading the design and development of NexusCore, a scalable software platform from concept to deployment. Responsible for system architecture, backend services, frontend development, authentication, database engineering, DevOps, and ongoing feature development." },
     { "id": 4, "role": "Security Projects Developer", "company": "Personal & GitHub Projects", "duration": "2026 — Present", "description": "Developing SentinelX, a Linux-based real-time intrusion detection and log monitoring tool. The system uses automated log parsing and anomaly detection to surface suspicious activity and present it through a clean GUI interface." },
     { "id": 3, "role": "Cybersecurity Trainee", "company": "TryHackMe & Hack The Box (Self-directed)", "duration": "2025 — Present", "description": " Engaging in structured hands-on labs covering penetration testing, vulnerability assessment, privilege escalation, and digital forensics. Automating reconnaissance workflows using Python and Bash. Completed OverTheWire Bandit wargame series." },
-    { "id": 2, "role": "IT Lab Assistant", "company": "Sri Lanka Institute of Advanced Technological Education (SLAITE)/Badulla", "duration": "2024 — Present", "description": "Responsible for maintaining and supporting over 30+ computer systems in a structured academic lab environment. Ensured system availability, troubleshooting hardware/software issues, and assisting users with technical operations. Gained hands-on experience in system stability, diagnostics, and basic network support." },
-    { "id": 1, "role": "IT Lab Assistant", "company": "B/Dharmapala Maha Vidyalaya/Bandarawela", "duration": "2019 — 2022", "description": "Supported daily ICT lab operations including system setup, maintenance, and student assistance during practical sessions. Assisted in troubleshooting basic hardware and software issues and ensured smooth lab functionality during academic use." }
+    { "id": 2, "role": "IT Lab Assistant (Self-Initiated)", "company": "Sri Lanka Institute of Advanced Technological Education (SLAITE)/Badulla", "duration": "2023 — 2026", "description": "Responsible for maintaining and supporting over 30+ computer systems in a structured academic lab environment. Ensured system availability, troubleshooting hardware/software issues, and assisting users with technical operations. Gained hands-on experience in system stability, diagnostics, and basic network support." },
+    { "id": 1, "role": "Student IT Lab Coordinator (IT Club Appointed)", "company": "B/Dharmapala Maha Vidyalaya/Bandarawela", "duration": "2019 — 2022", "description": "Supported daily ICT lab operations including system setup, maintenance, and student assistance during practical sessions. Assisted in troubleshooting basic hardware and software issues and ensured smooth lab functionality during academic use." }
   ],
   certificates: [],
   labplatforms: [

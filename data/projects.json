@@ -1,5 +1,16 @@
 [
   {
+    "id": 6,
+    "title": "CyberPodda SL - Trend Scan & Draft Generator",
+    "description": "An automated, containerized workflow that aggregates cybersecurity and tech trends across Hacker News, Reddit, Dev.to, and security RSS feeds, filters and ranks threats using Google Gemini AI, and pushes structured daily digests to Telegram.",
+    "techStack": "n8n, Docker, PostgreSQL, Google Gemini API, Telegram API, JavaScript",
+    "githubUrl": "",
+    "liveUrl": "",
+    "featured": true,
+    "certificateName": "",
+    "certificateUrl": ""
+  },
+  {
     "id": 5,
     "title": "NexusCore-SLIATE",
     "description": "Building Technical Culture Beyond the Classroom Student-led technical community focused on Software Engineering, Cybersecurity, Open Source, Git, AI, Linux, and collaborative development.",
