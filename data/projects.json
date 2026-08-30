@@ -4,7 +4,7 @@
     "title": "CyberPodda SL - Trend Scan & Draft Generator",
     "description": "An automated, containerized workflow that aggregates cybersecurity and tech trends across Hacker News, Reddit, Dev.to, and security RSS feeds, filters and ranks threats using Google Gemini AI, and pushes structured daily digests to Telegram.",
     "techStack": "n8n, Docker, PostgreSQL, Google Gemini API, Telegram API, JavaScript",
-    "githubUrl": "",
+    "githubUrl": "https://github.com/dulmina-hasith/cyberpodda-n8n",
     "liveUrl": "",
     "featured": true,
     "certificateName": "",
